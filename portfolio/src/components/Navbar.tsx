@@ -15,6 +15,9 @@ const Navbar: React.FC = () => {
           <Link to="projects" smooth={true} duration={500}>Projects</Link>
         </li>
         <li className="hover:text-gray-300">
+          <Link to="skills" smooth={true} duration={500}>Skills</Link>
+        </li>
+        <li className="hover:text-gray-300">
           <Link to="contact" smooth={true} duration={500}>Contact</Link>
         </li>
       </ul>

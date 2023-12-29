@@ -30,24 +30,24 @@ const Skills: React.FC = () => {
       
       
 
-  return (
+    return (
     <section className="p-10">
-      <h2 className="text-4xl mb-10">Key Skills</h2>
-      {Object.entries(skills).map(([category, skills]) => (
+        <h2 className="text-4xl mb-10">Key Skills</h2>
+        {Object.entries(skills).map(([category, skills]) => (
         <div key={category} className="mb-5">
-          <h3 className="text-2xl mb-3">{category}</h3>
-          <div className="flex flex-wrap">
+            <h3 className="text-2xl mb-3">{category}</h3>
+            <div className="flex flex-wrap">
             {skills.map((skill, index) => (
-              <div key={index} className="m-2 bg-blue-500 text-white rounded-lg px-3 py-1 text-sm font-semibold flex items-center space-x-2">
-                <img src={skill.image} alt={skill.name} className="w-6 h-6" />
-                <span>{skill.name}</span>
-              </div>
+                <div key={index} className="m-2 bg-white w-24 h-24 rounded-lg p-4 hover:bg-gray-200 transition-all duration-300 transform hover:scale-110 flex flex-col items-center justify-center space-x-2">
+                <img src={skill.image} alt={skill.name} className="w-12 h-12 mb-2" />
+                <span className="text-sm font-semibold text-center">{skill.name}</span>
+                </div>
             ))}
-          </div>
+            </div>
         </div>
-      ))}
+        ))}
     </section>
-  );
+    );
 };
 
 export default Skills;

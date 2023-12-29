@@ -1,46 +1,49 @@
 import React, { useState } from 'react';
 
 const Contact: React.FC = () => {
-    const [email, setEmail] = useState('');
-    const [comment, setComment] = useState('');
-    const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [name, setName] = useState('');
 
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
-        // Handle form submission logic here
-    };
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Handle form submission logic here
+  };
 
-    return (
-        <form onSubmit={handleSubmit}>
-            <label>
-                Email:
-                <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                />
-            </label>
-            <br />
-            <label>
-                Comment:
-                <textarea
-                    value={comment}
-                    onChange={(e) => setComment(e.target.value)}
-                />
-            </label>
-            <br />
-            <label>
-                Name:
-                <input
-                    type="text"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                />
-            </label>
-            <br />
-            <button type="submit">Submit</button>
-        </form>
-    );
+  return (
+    <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto mt-5 px-4 py-3 rounded shadow">
+      <h2 className="text-2xl mb-4">Contact Me</h2>
+      <div className="mb-4">
+        <label className="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+        <input
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+        <textarea
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        />
+      </div>
+      <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        Submit
+      </button>
+    </form>
+  );
 };
 
 export default Contact;

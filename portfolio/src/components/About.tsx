@@ -11,9 +11,8 @@ const About: React.FC = () => {
           apps.
         </h1>
         <p className="mb-8 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-          laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-          Laborum, voluptas natus?
+          HOLD UP LEMME COOK BABYYYYYYYYYYYYYYYYYY THAT'S WHAT I'M TALKING ABOUT
+          SOMEBODY PLEEEEEEEEEEEEEASE GIVE ME A JOB
         </p>
         <div className="flex justify-center">
           <Link
