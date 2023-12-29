@@ -1,14 +1,20 @@
 // App.tsx
 import React from 'react';
-import CoinFlipper from './components/CoinFlipper';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <h1>Coin Flipper</h1>
-      {/* Forked from https://codesandbox.io/p/sandbox/coin-flip-react-example-01j7q?file=%2Fsrc%2FApp.js%3A32%2C17 */}
-      <CoinFlipper /> 
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
     </div>
   );
 };
