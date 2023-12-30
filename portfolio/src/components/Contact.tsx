@@ -5,10 +5,26 @@ const Contact: React.FC = () => {
   const [message, setMessage] = useState('');
   const [name, setName] = useState('');
 
+  // check your emails from your email of just at formspree.io
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
+  
+    fetch('https://formspree.io/f/xleqedpn', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, message }),
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Success:', data);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
   };
+  
 
   return (
     <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto mt-5 px-4 py-3 rounded shadow">

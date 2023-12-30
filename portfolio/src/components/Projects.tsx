@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import ProjectObject from './ProjectObject'; // Path to your projects file
+import ProjectList from './ProjectList'; // Path to your projects file
 
 const Projects: React.FC = () => {
   const settings = {
@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
     <section className="p-10">
       <h2 className="text-4xl mb-10">Projects</h2>
       <Slider {...settings}>
-        {ProjectObject.map((project, index) => (
+        {ProjectList.map((project, index) => (
           <div key={index} className="p-4">
             <div className="bg-gray-300 h-64 rounded-lg p-4 hover:bg-gray-400 transition-colors duration-300">
               <h3 className="text-xl">{project.title}</h3>

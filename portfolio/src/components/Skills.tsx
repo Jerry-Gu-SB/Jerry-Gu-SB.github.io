@@ -38,9 +38,9 @@ const Skills: React.FC = () => {
             <h3 className="text-2xl mb-3">{category}</h3>
             <div className="flex flex-wrap">
             {skills.map((skill, index) => (
-                <div key={index} className="m-2 bg-white w-24 h-24 rounded-lg p-4 hover:bg-gray-200 transition-all duration-300 transform hover:scale-110 flex flex-col items-center justify-center space-x-2">
-                <img src={skill.image} alt={skill.name} className="w-12 h-12 mb-2" />
-                <span className="text-sm font-semibold text-center">{skill.name}</span>
+                <div key={index} className="m-2 bg-white w-96 h-48 rounded-lg p-4 hover:bg-gray-200 transition-all duration-300 transform hover:scale-110 flex flex-col items-center justify-center space-x-2">
+                <img src={skill.image} alt={skill.name} className="w-32 h-32 mb-2" />
+                <span className="text-xl font-semibold text-center">{skill.name}</span>
                 </div>
             ))}
             </div>

@@ -1,4 +1,4 @@
-const ProjectObject = [
+const ProjectList = [
     {
       title: 'Project 1',
       details: ['Detail 1', 'Detail 2', 'Detail 3'],
@@ -17,5 +17,5 @@ const ProjectObject = [
     },
   ];
   
-  export default ProjectObject;
+  export default ProjectList;
   

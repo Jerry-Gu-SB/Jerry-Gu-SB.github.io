@@ -13,9 +13,9 @@ const App: React.FC = () => {
     <div className="App">
       <Navbar />
       <Home />
-      <Education />
       <Projects />
       <Skills />
+      <Education />
       <Contact />
     </div>
   );
