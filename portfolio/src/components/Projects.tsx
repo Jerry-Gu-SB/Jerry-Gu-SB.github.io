@@ -13,25 +13,26 @@ const Projects: React.FC = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    pauseOnFocus: true,
   };
 
   return (
     <section className="p-10">
       <h2 className="text-4xl mb-10">Projects</h2>
-      <Slider {...settings}>
-        {ProjectList.map((project, index) => (
-          <div key={index} className="p-4">
-            <div className="bg-gray-300 h-64 rounded-lg p-4 hover:bg-gray-400 transition-colors duration-300">
-              <h3 className="text-xl">{project.title}</h3>
-              <ul className="mt-2 space-y-2">
-                {project.details.map((detail, i) => (
-                  <li key={i}>{detail}</li>
-                ))}
-              </ul>
+        <Slider {...settings}>
+          {ProjectList.map((project, index) => (
+            <div key={index} className="relative p-4">
+              <div className={`bg-cover bg-center flex-grow rounded-lg p-4 hover:bg-gray-400 transition-colors duration-300`}>
+                <h3 className="text-xl">{project.title}</h3>
+                <ul className="mt-2 space-y-2">
+                  {project.details.map((detail, i) => (
+                    <li key={i}>{detail}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
     </section>
   );
 };
