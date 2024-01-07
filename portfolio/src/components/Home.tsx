@@ -31,7 +31,7 @@ const Home: React.FC = () => {
       background: {
         position: "top",
         color: {
-          value: "#0d47a1",
+          value: "#031629",
         },
       },
       fpsLimit: 120,
@@ -58,10 +58,10 @@ const Home: React.FC = () => {
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: "#a67584",
         },
         links: {
-          color: "#ffffff",
+          color: "#d4e2ed",
           distance: 150,
           enable: true,
           opacity: 0.5,
@@ -107,10 +107,15 @@ const Home: React.FC = () => {
       <img
         src={require("./images/profile.jpg")}
         alt="Your face"
-        className="w-32 h-32 rounded-full mb-4"
+        className="w-32 h-32 rounded-full mb-4 mt-10"
       />
-      <h1 className="text-4xl mb-2">Jerry Gu</h1>
-      <p className="text-center">IT'S JOEVER IT'S JOEVER IT'S JOEVER</p>
+      <div className="w-2/3 h-auto bg-gray">
+        <h1 className="text-4xl mb-2 ">Jerry Gu</h1>
+        <p className="text-center text-2xl">Hey there! I'm a current student at the University of Virginia School of Engineering studying computer science looking for an internship for Summer 2024. 
+        I've created games, websites, and more so far in my software engineer journey and I'm always looking for opportunities to let me express myself in my work!
+        In my free time I love to create videos on YouTube and practice Kendo. I'm always looking for new things to learn and new people to meet, so feel free to use the contact form or links below to get in touch with me!
+        </p>
+      </div>
       <div className="mt-4 flex space-x-2">
         <a
           href="https://www.linkedin.com/in/jerry-gu-uva/"
@@ -138,9 +143,13 @@ const Home: React.FC = () => {
           href={require("./misc-files/Jerry_Gu_Resume.pdf")}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-white text-black px-4 py-2 rounded"
         >
-          Resume
+          <img
+            src={require("./images/resume.png")}
+            alt="Resume"
+            className="w-8 h-8"
+            />
+          
         </a>
       </div>
     </div>
