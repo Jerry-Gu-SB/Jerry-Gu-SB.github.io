@@ -10,12 +10,12 @@ const ProjectList = [
     },
     {
       title: 'ShadowBox Mouse Trainer ',
-      details: ['•	Conceived the original idea for a mouse coordination training game, identifying a need for such a tool', '•	Self-taught Unity and C# scripting to bring the game idea to life, successfully bringing new game to public ', '•	Play my game: https://jerrygu.itch.io/shadowbox'],
+      details: ['•	Conceived the original idea for a mouse coordination training game, identifying a need for such a tool', '•	Self-taught Unity and C# scripting to bring the game idea to life, successfully bringing new game to public ', '•	Play my game: jerrygu.itch.io/shadowbox'],
       image: ShadowBox,
     },
     {
       title: 'SplitBall',
-      details: ['•	Inherited single player game as a team of two to repurpose as a multiplayer offline competitive game within the Unity Engine and C#', '•	Check out the repo: https://github.com/UVASGD/spring-2022-splitball'],
+      details: ['•	Inherited single player game as a team of two to repurpose as a multiplayer offline competitive game within the Unity Engine and C#', '•	Check out the repo: github.com/UVASGD/spring-2022-splitball'],
       image: SplitBall,
     },
     {
