@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-gray-800 p-2 mt-0 fixed w-full z-50">
-      <ul className="flex justify-around text-white text-lg">
+      <ul className="flex justify-around text-white text-lg select-none">
         <li className="hover:text-gray-300">
           <Link to="Home" smooth={true} duration={500}>Home</Link>
         </li>
