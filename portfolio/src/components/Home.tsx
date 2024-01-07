@@ -95,7 +95,7 @@ const Home: React.FC = () => {
   );
 
   return (
-    <div className="h-[500px] flex flex-col items-center justify-center text-white relative overflow-hidden">
+    <div id='Home' className="h-[500px] flex flex-col items-center justify-center text-white relative overflow-hidden">
       {init && (
         <Particles
           id="tsparticles"

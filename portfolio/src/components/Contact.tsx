@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
   
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto mt-5 px-4 py-3 rounded shadow">
+    <form id='Contact' onSubmit={handleSubmit} className="w-full max-w-lg mx-auto mt-5 px-4 py-3 rounded shadow">
       <h2 className="text-2xl mb-4">Contact Me</h2>
       <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2">Name:</label>

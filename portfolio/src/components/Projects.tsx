@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProjectList from './ProjectList'; // Path to your projects file
+import ProjectList from "./ProjectList"; // Path to your projects file
 
 const Projects: React.FC = () => {
   const settings = {
@@ -17,22 +17,24 @@ const Projects: React.FC = () => {
   };
 
   return (
-    <section className="p-10">
+    <section id="Projects" className="p-10">
       <h2 className="text-4xl mb-10">Projects</h2>
-        <Slider {...settings}>
-          {ProjectList.map((project, index) => (
-            <div key={index} className="relative p-4">
-              <div className={`bg-cover bg-center flex-grow rounded-lg p-4 hover:bg-gray-400 transition-colors duration-300`}>
-                <h3 className="text-xl">{project.title}</h3>
-                <ul className="mt-2 space-y-2">
-                  {project.details.map((detail, i) => (
-                    <li key={i}>{detail}</li>
-                  ))}
-                </ul>
-              </div>
+      <Slider {...settings}>
+        {ProjectList.map((project, index) => (
+          <div key={index} className="relative p-4">
+            <div
+              className={`bg-cover bg-center flex-grow rounded-lg p-4 hover:bg-gray-400 transition-colors duration-300`}
+            >
+              <h3 className="text-xl">{project.title}</h3>
+              <ul className="mt-2 space-y-2">
+                {project.details.map((detail, i) => (
+                  <li key={i}>{detail}</li>
+                ))}
+              </ul>
             </div>
-          ))}
-        </Slider>
+          </div>
+        ))}
+      </Slider>
     </section>
   );
 };

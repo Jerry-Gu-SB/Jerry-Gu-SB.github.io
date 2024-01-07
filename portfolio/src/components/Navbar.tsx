@@ -6,19 +6,19 @@ const Navbar: React.FC = () => {
     <nav className="bg-gray-800 p-2 mt-0 fixed w-full z-50">
       <ul className="flex justify-around text-white text-lg">
         <li className="hover:text-gray-300">
-          <Link to="home" smooth={true} duration={500}>Home</Link>
+          <Link to="Home" smooth={true} duration={500}>Home</Link>
         </li>
         <li className="hover:text-gray-300">
-          <Link to="projects" smooth={true} duration={500}>Projects</Link>
+          <Link to="Projects" smooth={true} duration={500}>Projects</Link>
         </li>
         <li className="hover:text-gray-300">
-          <Link to="skills" smooth={true} duration={500}>Skills</Link>
+          <Link to="Skills" smooth={true} duration={500}>Skills</Link>
         </li>
         <li className="hover:text-gray-300">
-          <Link to="education" smooth={true} duration={500}>Education</Link>
+          <Link to="Education" smooth={true} duration={500}>Education</Link>
         </li>
         <li className="hover:text-gray-300">
-          <Link to="contact" smooth={true} duration={500}>Contact</Link>
+          <Link to="Contact" smooth={true} duration={500}>Contact</Link>
         </li>
       </ul>
     </nav>

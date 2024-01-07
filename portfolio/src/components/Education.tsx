@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education: React.FC = () => {
   return (
-    <div className="flex flex-col m-20">
+    <div id='Education' className="flex flex-col m-20">
       <h2 className="text-4xl mb-10">Education</h2>
       <div className="flex flex-row w-full">
         <div className="flex flex-row w-1/2">
