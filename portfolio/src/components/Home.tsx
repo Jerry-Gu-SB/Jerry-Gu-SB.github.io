@@ -95,7 +95,7 @@ const Home: React.FC = () => {
   );
 
   return (
-    <div id='Home' className="h-[500px] flex flex-col items-center justify-center text-white relative overflow-hidden">
+    <div id='Home' className="h-[500px] flex flex-col items-center justify-center text-white relative overflow-hidden pt-20 h-full">
       {init && (
         <Particles
           id="tsparticles"
@@ -107,7 +107,7 @@ const Home: React.FC = () => {
       <img
         src={require("./images/profile.jpg")}
         alt="Your face"
-        className="w-32 h-32 rounded-full mb-4 mt-10"
+        className="w-32 h-32 rounded-full mb-4 mt-10 bg-white border-4 border-white"
       />
       <div className="w-2/3 h-auto bg-gray">
         <h1 className="text-4xl mb-2 ">Jerry Gu</h1>
@@ -116,7 +116,7 @@ const Home: React.FC = () => {
         In my free time I love to create videos on YouTube and practice Kendo. I'm always looking for new things to learn and new people to meet, so feel free to use the contact form or links below to get in touch with me!
         </p>
       </div>
-      <div className="mt-4 flex space-x-2">
+      <div className="mt-4 mb-4 flex space-x-2">
         <a
           href="https://www.linkedin.com/in/jerry-gu-uva/"
           target="_blank"

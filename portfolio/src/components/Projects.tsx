@@ -36,8 +36,8 @@ const Projects: React.FC = () => {
               <img src={project.image} alt={project.title} className="rounded-lg w-full h-full object-cover" />
             </div>
             <div className="z-[-10] absolute top-4 p-4 rounded-lg overflow-auto max-h-[calc(100%-8px)]">
-              <h3 className="text-3xl pt-4">{project.title}</h3>
-              <ul className="text-xl mt-2 space-y-2">
+              <h3 className="text-sm sm:text-base md:text-md lg:text-l xl:text-2xl pt-4">{project.title}</h3>
+              <ul className="text-sm sm:text-base md:text-sm lg:text-md xl:text-xl mt-2 space-y-2">
                 {project.details.map((detail, i) => (
                   <li key={i}>{detail}</li>
                 ))}
