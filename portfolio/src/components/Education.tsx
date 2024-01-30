@@ -15,7 +15,7 @@ const Education: React.FC = () => {
               <li>Expected graduation in May 2025</li>
               <li>Currently holding a 3.82 GPA</li>
               <li>President of the StarCraft Club at UVA</li>
-              <li>Head of StarCraft 2 division in UVA Esports</li>
+              <li>Head of StarCraft 2 division at UVA Esports</li>
               <li>UVA Kendo travel team member</li>
             </ul>
           </div>
