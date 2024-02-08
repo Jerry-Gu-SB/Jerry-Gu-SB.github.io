@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.730d007f.css",
-    "main.js": "./static/js/main.ba020f60.js",
+    "main.js": "./static/js/main.96260ead.js",
     "static/js/787.7da95b79.chunk.js": "./static/js/787.7da95b79.chunk.js",
     "static/media/profile.jpg": "./static/media/profile.63491a469c40424f931d.jpg",
     "static/media/portolio test.png": "./static/media/portolio test.3546fe355567f6568a54.png",
@@ -10,8 +10,8 @@
     "static/media/react.png": "./static/media/react.6bcffb56bd0efaa47767.png",
     "static/media/uva.png": "./static/media/uva.4569cf291f5e35a76b29.png",
     "static/media/snu.png": "./static/media/snu.1903e4ecd53fe860d5e9.png",
+    "static/media/Jerry_Gu_Resume.pdf": "./static/media/Jerry_Gu_Resume.28c72b9e1c304edc1583.pdf",
     "static/media/jdbc.png": "./static/media/jdbc.6bf5132e1765038ea9cd.png",
-    "static/media/Jerry_Gu_Resume.pdf": "./static/media/Jerry_Gu_Resume.efa7e3cd79e1abb4dd6d.pdf",
     "static/media/sqlite.png": "./static/media/sqlite.f05a612d02f52a49bcfe.png",
     "static/media/java.png": "./static/media/java.f3a152050ea01191b012.png",
     "static/media/typescript.png": "./static/media/typescript.1e3902edbe4c3f2970d8.png",
@@ -33,11 +33,11 @@
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
     "main.730d007f.css.map": "./static/css/main.730d007f.css.map",
-    "main.ba020f60.js.map": "./static/js/main.ba020f60.js.map",
+    "main.96260ead.js.map": "./static/js/main.96260ead.js.map",
     "787.7da95b79.chunk.js.map": "./static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.730d007f.css",
-    "static/js/main.ba020f60.js"
+    "static/js/main.96260ead.js"
   ]
 }
