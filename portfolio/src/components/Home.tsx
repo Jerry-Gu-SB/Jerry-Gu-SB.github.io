@@ -140,7 +140,7 @@ const Home: React.FC = () => {
           />
         </a>
         <a
-          href={require("./misc-files/Jerry_Gu_Resume.pdf")}
+          href={require("./misc-files/Jerry_Gu_resume.pdf")}
           target="_blank"
           rel="noopener noreferrer"
         >
