@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.730d007f.css",
-    "main.js": "./static/js/main.e5205eb0.js",
+    "main.js": "./static/js/main.b61e5ec6.js",
     "static/js/787.7da95b79.chunk.js": "./static/js/787.7da95b79.chunk.js",
     "static/media/profile.jpg": "./static/media/profile.63491a469c40424f931d.jpg",
     "static/media/portolio test.png": "./static/media/portolio test.3546fe355567f6568a54.png",
@@ -15,7 +15,7 @@
     "static/media/java.png": "./static/media/java.f3a152050ea01191b012.png",
     "static/media/typescript.png": "./static/media/typescript.1e3902edbe4c3f2970d8.png",
     "static/media/python.png": "./static/media/python.41259ded83ae0f2a4243.png",
-    "static/media/Jerry_Gu_resume.pdf": "./static/media/Jerry_Gu_resume.0190b290f732090a9916.pdf",
+    "static/media/Jerry_Gu_resume.pdf": "./static/media/Jerry_Gu_resume.0b1456b22cebd6a9cf5b.pdf",
     "static/media/shadowbox test.png": "./static/media/shadowbox test.b2b89c096f3766c0b839.png",
     "static/media/scrum.png": "./static/media/scrum.dda8c9a51813bdda8fcd.png",
     "static/media/resume.png": "./static/media/resume.0859d41de28481472def.png",
@@ -33,11 +33,11 @@
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
     "main.730d007f.css.map": "./static/css/main.730d007f.css.map",
-    "main.e5205eb0.js.map": "./static/js/main.e5205eb0.js.map",
+    "main.b61e5ec6.js.map": "./static/js/main.b61e5ec6.js.map",
     "787.7da95b79.chunk.js.map": "./static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.730d007f.css",
-    "static/js/main.e5205eb0.js"
+    "static/js/main.b61e5ec6.js"
   ]
 }
