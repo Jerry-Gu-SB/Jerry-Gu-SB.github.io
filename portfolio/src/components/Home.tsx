@@ -111,7 +111,7 @@ const Home: React.FC = () => {
       />
       <div className="w-2/3 h-auto bg-gray">
         <h1 className="text-4xl mb-2 ">Jerry Gu</h1>
-        <p className="text-center text-2xl">Hey there! I'm a current student at the University of Virginia School of Engineering studying computer science looking for an internship for Summer 2024. 
+        <p className="text-center text-2xl">Hey there! I'm a current student at the University of Virginia School of Engineering studying computer science looking for full time software developer positions. 
         I've created games, websites, and more so far in my software engineer journey and I'm always looking for opportunities to let me express myself in my work!
         In my free time I love to create videos on YouTube and practice Kendo. I'm always looking for new things to learn and new people to meet, so feel free to use the contact form or links below to get in touch with me!
         </p>
@@ -125,7 +125,7 @@ const Home: React.FC = () => {
           <img
             src={require("./images/linkedin.png")}
             alt="LinkedIn"
-            className="w-8 h-8"
+            className="w-16 h-16"
           />
         </a>
         <a
@@ -136,7 +136,7 @@ const Home: React.FC = () => {
           <img
             src={require("./images/github.png")}
             alt="GitHub"
-            className="w-8 h-8"
+            className="w-16 h-16"
           />
         </a>
         <a
@@ -147,7 +147,7 @@ const Home: React.FC = () => {
           <img
             src={require("./images/resume.png")}
             alt="Resume"
-            className="w-8 h-8"
+            className="w-16 h-16"
             />
           
         </a>

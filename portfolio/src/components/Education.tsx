@@ -10,13 +10,13 @@ const Education: React.FC = () => {
           <div className="text-left">
             <h2 className="text-xl sm:text-md md:text-xl lg:text-2xl xl:text-4xl font-bold">University of Virginia</h2>
             <h1 className="text-sm sm:text-sm md:text-md lg:text-xl xl:text-2xl font-bold">Bachelor of Science in Computer Science</h1>
-            <h1 className="text-sm sm:text-sm md:text-md lg:text-xl xl:text-2xl font-bold">Bachelor of Arts in Philosophy</h1>
+            <h1 className="text-sm sm:text-sm md:text-md lg:text-xl xl:text-2xl font-bold">Masters of Computer Science</h1>
             <ul className="list-disc list-inside text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
               <li>Expected graduation in May 2025</li>
-              <li>Currently holding a 3.82 GPA</li>
+              <li>Currently holding a 3.83 GPA</li>
               <li>President of the StarCraft Club at UVA</li>
+              <li>Treasurer of UVA Kendo and travel team member</li>
               <li>Head of StarCraft 2 division at UVA Esports</li>
-              <li>UVA Kendo travel team member</li>
             </ul>
           </div>
         </div>
@@ -27,8 +27,8 @@ const Education: React.FC = () => {
             <h1 className="text-sm sm:text-sm md:text-md lg:text-xl xl:text-2xl font-bold">Study Abroad Spring 2024</h1>
             <ul className="list-disc list-inside text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
               <li>Semester study in the Department of Computer Science and Engineering</li>
-              <li>UVA International Studies Office videographer correspondent</li>
-              <li>Member of the SNU kumdo club</li>
+              <li>UVA International Studies Office photographer correspondent</li>
+              <li>Member of the SNU Kendo Club</li>
             </ul>
           </div>
         </div>

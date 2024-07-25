@@ -1,7 +1,8 @@
-import StudentCourseApp from './images/coursereview test.jpg';
-import ShadowBox from './images/shadowbox test.png';
-import SplitBall from './images/splitball test.png';
-import Portfolio from './images/portolio test.png';
+import StudentCourseApp from './images/coursereview.jpg';
+import ShadowBox from './images/shadowbox.png';
+import SplitBall from './images/splitball.png';
+import Portfolio from './images/portolio.png';
+import HTML from './images/HTML.png';
 const ProjectList = [
     {
       title: 'Student Course Review App',
@@ -23,6 +24,11 @@ const ProjectList = [
       details: ['•	Constructed a personal portfolio website using React + TypeScript, and designed using Tailwind CSS', '•	Incorporated an email contact form using Formspree, providing direct communication with visitors', '•	Check out my website: Ctrl-R or Cmd-R'],
       image: Portfolio,
     },
+    {
+      title: 'HTML 1.0 File Server',
+      details: ['•	Utilized C programming language socket library to construct a file delivery webserver supporting subset of HTTP/1.0', '• Implemented functionality to handle GET and POST requests for efficient file transfer and data submission.'],
+      image: HTML,
+    }
   ];
   
   export default ProjectList;
