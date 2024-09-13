@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d42dc5db.css",
-    "main.js": "./static/js/main.7d82f4ca.js",
+    "main.js": "./static/js/main.cea4c9eb.js",
     "static/js/787.7da95b79.chunk.js": "./static/js/787.7da95b79.chunk.js",
     "static/media/profile.jpg": "./static/media/profile.63491a469c40424f931d.jpg",
     "static/media/portolio.png": "./static/media/portolio.3546fe355567f6568a54.png",
@@ -14,7 +14,7 @@
     "static/media/sqlite.png": "./static/media/sqlite.f05a612d02f52a49bcfe.png",
     "static/media/HTML.png": "./static/media/HTML.afe079e66f1768a361bb.png",
     "static/media/react native.png": "./static/media/react native.37199b142a7792cc4318.png",
-    "static/media/Jerry_Gu_resume.pdf": "./static/media/Jerry_Gu_resume.4e6866a8f630a92d8b7a.pdf",
+    "static/media/Jerry_Gu_resume.pdf": "./static/media/Jerry_Gu_resume.e6f44f25e65488fc6643.pdf",
     "static/media/java.png": "./static/media/java.f3a152050ea01191b012.png",
     "static/media/typescript.png": "./static/media/typescript.1e3902edbe4c3f2970d8.png",
     "static/media/python.png": "./static/media/python.41259ded83ae0f2a4243.png",
@@ -36,11 +36,11 @@
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
     "main.d42dc5db.css.map": "./static/css/main.d42dc5db.css.map",
-    "main.7d82f4ca.js.map": "./static/js/main.7d82f4ca.js.map",
+    "main.cea4c9eb.js.map": "./static/js/main.cea4c9eb.js.map",
     "787.7da95b79.chunk.js.map": "./static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d42dc5db.css",
-    "static/js/main.7d82f4ca.js"
+    "static/js/main.cea4c9eb.js"
   ]
 }
