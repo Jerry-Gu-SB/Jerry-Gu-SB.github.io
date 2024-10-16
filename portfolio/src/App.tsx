@@ -4,7 +4,6 @@ import Home from "./components/Home";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 import "./App.css";
 
 const App: React.FC = () => {
@@ -16,7 +15,6 @@ const App: React.FC = () => {
         <Projects />
         <Skills />
         <Education />
-        <Contact />
       </div>
     </div>
   );
