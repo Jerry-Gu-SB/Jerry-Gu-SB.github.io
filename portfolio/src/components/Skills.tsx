@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
 
     return (
       <section id='Skills' className="p-10">
-      <h2 className="text-4xl mb-10">Skills</h2>
+      <h2 className="text-4xl mb-10 font-bold">Skills</h2>
       {Object.entries(skills).map(([category, skills]) => (
         <div key={category} className="mb-5">
           <h3 className="text-2xl mb-3">{category}</h3>

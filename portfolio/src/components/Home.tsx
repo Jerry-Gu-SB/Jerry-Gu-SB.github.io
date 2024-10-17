@@ -149,8 +149,19 @@ const Home: React.FC = () => {
             alt="Resume"
             className="w-16 h-16"
             />
-          
         </a>
+        <a
+            href="mailto:jerrysonggu@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Email Me"
+          >
+            <img
+              src={require("./images/email.webp")}
+              alt="Email"
+              className="w-16 h-16"
+            />
+          </a>
       </div>
     </div>
   );

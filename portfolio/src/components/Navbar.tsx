@@ -17,9 +17,6 @@ const Navbar: React.FC = () => {
         <li className="hover:text-gray-300">
           <Link to="Education" smooth={true} duration={500}>Education</Link>
         </li>
-        <li className="hover:text-gray-300">
-          <Link to="Contact" smooth={true} duration={500}>Contact</Link>
-        </li>
       </ul>
     </nav>
   );
