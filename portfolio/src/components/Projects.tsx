@@ -16,12 +16,11 @@ const Projects: React.FC = () => {
     pauseOnFocus: true,
   };
 
-  // Create an array of boolean values for hover state of each project
   const [isHovered, setIsHovered] = useState(new Array(ProjectList.length).fill(false));
 
   return (
     <section id="Projects" className="p-10">
-      <h2 className="text-4xl mb-10">Projects</h2>
+      <h2 className="text-4xl mb-10 font-weight-bold">Projects</h2>
       <Slider {...settings}>
         {ProjectList.map((project, index) => (
           <div 
