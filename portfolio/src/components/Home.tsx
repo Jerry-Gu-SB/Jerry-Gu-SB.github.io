@@ -110,7 +110,7 @@ const Home: React.FC = () => {
         className="w-32 h-32 rounded-full mb-4 mt-10 bg-white border-4 border-white"
       />
       <div className="w-2/3 h-auto bg-gray">
-        <h1 className="text-4xl mb-2 ">Jerry Gu</h1>
+        <h1 className="text-4xl mb-2 font-bold">Jerry Gu</h1>
         <p className="text-center text-2xl">Hey there! I'm a current student at the University of Virginia School of Engineering studying computer science looking for full time software developer positions. 
         I've created games, websites, and more so far in my software engineer journey and I'm always looking for opportunities to let me express myself in my work!
         In my free time I love to create videos on YouTube and practice kendo. I'm always looking for new things to learn and new people to meet, so feel free to reach out to me and check out my stuff at the links below!
