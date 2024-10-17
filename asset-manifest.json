@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.d42dc5db.css",
-    "main.js": "./static/js/main.273b5213.js",
-    "static/js/787.7da95b79.chunk.js": "./static/js/787.7da95b79.chunk.js",
+    "main.css": "./static/css/main.1ae5c154.css",
+    "main.js": "./static/js/main.9ddb8d9b.js",
+    "static/js/453.ace21015.chunk.js": "./static/js/453.ace21015.chunk.js",
     "static/media/profile.jpg": "./static/media/profile.63491a469c40424f931d.jpg",
-    "static/media/portolio.png": "./static/media/portolio.3546fe355567f6568a54.png",
+    "static/media/portolio.png": "./static/media/portolio.17e9f5cc153799d6a678.png",
     "static/media/splitball.png": "./static/media/splitball.532ecfe0efde6e887520.png",
     "static/media/apis.png": "./static/media/apis.fc0be70a956c86c07903.png",
     "static/media/react.png": "./static/media/react.6bcffb56bd0efaa47767.png",
-    "static/media/uva.png": "./static/media/uva.4569cf291f5e35a76b29.png",
     "static/media/snu.png": "./static/media/snu.1903e4ecd53fe860d5e9.png",
     "static/media/jdbc.png": "./static/media/jdbc.6bf5132e1765038ea9cd.png",
+    "static/media/HTTP.jpg": "./static/media/HTTP.e569781d130f9b88eaa2.jpg",
     "static/media/sqlite.png": "./static/media/sqlite.f05a612d02f52a49bcfe.png",
-    "static/media/HTML.png": "./static/media/HTML.afe079e66f1768a361bb.png",
     "static/media/react native.png": "./static/media/react native.37199b142a7792cc4318.png",
     "static/media/Jerry_Gu_resume.pdf": "./static/media/Jerry_Gu_resume.fcdd88ed5a8a18ad82de.pdf",
     "static/media/java.png": "./static/media/java.f3a152050ea01191b012.png",
@@ -23,6 +22,7 @@
     "static/media/resume.png": "./static/media/resume.0859d41de28481472def.png",
     "static/media/javafx.png": "./static/media/javafx.695bd06ff0e97495919b.png",
     "static/media/c.png": "./static/media/c.bf0af88d24cd724c83bc.png",
+    "static/media/uva.png": "./static/media/uva.8f54f8a9987c4b840987.png",
     "static/media/mockito.png": "./static/media/mockito.9a3c45099023b0c2aa1a.png",
     "static/media/github.png": "./static/media/github.49be60e646ca40a7cd52.png",
     "static/media/coursereview.jpg": "./static/media/coursereview.d8b93ffe4074cd63e127.jpg",
@@ -30,17 +30,18 @@
     "static/media/linkedin.png": "./static/media/linkedin.df3f373c358bcfdd92bb.png",
     "static/media/apollo.png": "./static/media/apollo.9c2050eab134d5e8c743.png",
     "static/media/javascript.png": "./static/media/javascript.266bd9fb2663dcc057b4.png",
+    "static/media/email.webp": "./static/media/email.b3e210bfbc5268a3059e.webp",
     "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.d42dc5db.css.map": "./static/css/main.d42dc5db.css.map",
-    "main.273b5213.js.map": "./static/js/main.273b5213.js.map",
-    "787.7da95b79.chunk.js.map": "./static/js/787.7da95b79.chunk.js.map"
+    "main.1ae5c154.css.map": "./static/css/main.1ae5c154.css.map",
+    "main.9ddb8d9b.js.map": "./static/js/main.9ddb8d9b.js.map",
+    "453.ace21015.chunk.js.map": "./static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d42dc5db.css",
-    "static/js/main.273b5213.js"
+    "static/css/main.1ae5c154.css",
+    "static/js/main.9ddb8d9b.js"
   ]
 }
