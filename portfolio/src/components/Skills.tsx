@@ -5,14 +5,15 @@ const Skills: React.FC = () => {
           { name: 'Python', image: require('./images/python.png') },
           { name: 'Java', image: require('./images/java.png') },
           { name: 'C', image: require('./images/c.png') },
-          { name: 'JavaScript', image: require('./images/javascript.png') },
         ],
         'Frontend Skills': [
           { name: 'TypeScript', image: require('./images/typescript.png') },
-          { name: 'React.js', image: require('./images/react.png') },
-          { name: 'Tailwind CSS', image: require('./images/tailwindcss.png') },
+          { name: 'React', image: require('./images/react.png') },
           { name: 'JavaFX', image: require('./images/javafx.png') },
-          { name: 'React Native', image: require('./images/react native.png') },
+          { name: 'Tailwind CSS', image: require('./images/tailwindcss.png') },
+          { name: 'Django', image: require('./images/django.png') },
+          // { name: 'React Native', image: require('./images/react native.png') },
+
         ],
         'Backend Skills': [
           { name: 'SQLite', image: require('./images/sqlite.png') },
@@ -22,11 +23,12 @@ const Skills: React.FC = () => {
           { name: 'Hibernate', image: require('./images/hibernate.png') },
         ],
         'Misc': [
+          { name: 'aws', image: require('./images/aws.png') },
+          { name: 'Heroku', image: require('./images/heroku.png') },
           { name: 'JUnit Testing', image: require('./images/junit.png') },
-          { name: 'Mockito', image: require('./images/mockito.png') },
           { name: 'Git', image: require('./images/git.png') },
           { name: 'Scrum', image: require('./images/scrum.png') },
-          { name: 'APIs', image: require('./images/apis.png') },
+          // { name: 'APIs', image: require('./images/apis.png') },
         ]
       };
       
