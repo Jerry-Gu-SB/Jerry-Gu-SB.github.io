@@ -1,28 +1,6 @@
 import React, { useEffect, useRef, useCallback, useState } from 'react';
 
 const Education: React.FC = () => {
-  const education = {
-    UVA: [
-      { 
-        institution: "University of Virginia", 
-        degree: "Bachelor of Science in Computer Science", 
-        duration: "2021-2025" 
-      },
-      { 
-        institution: "University of Virginia", 
-        degree: "Masters in Computer Science Accelerated Program", 
-        duration: "2024-2026" 
-      },
-    ],
-    SNU: [
-      { 
-        institution: "Seoul National University", 
-        degree: "Study Abroad Program", 
-        duration: "Spring 2021" 
-      }
-    ]
-  };
-
   const coursework = [
     "Computer Networks",
     "Machine Learning",
@@ -175,11 +153,9 @@ const Education: React.FC = () => {
               University of Virginia
             </h4>
             <ul className="space-y-2">
-              {education.UVA.map((item, index) => (
-                <li key={index} className="text-xl text-gray-700">
-                  <strong>{item.degree}</strong> – {item.institution} ({item.duration})
-                </li>
-              ))}
+              <li className="text-xl text-gray-700">
+                <strong>Degree:</strong> Bachelor of Science in Computer Science
+              </li>
               <li className="text-xl text-gray-700">
                 <strong>Minor:</strong> Philosophy
               </li>
@@ -189,14 +165,12 @@ const Education: React.FC = () => {
           <div className="mb-10 pl-4">
             <h4 className="text-3xl mb-5 text-gray-800 font-semibold flex items-center justify-center">
               <img src={require(".//images/snu.png")} alt="SNU Logo" className="h-16 mb-2 mr-2" />
-              Study Abroad
+              Seoul National University
             </h4>
             <ul className="space-y-2">
-              {education.SNU.map((item, index) => (
-                <li key={index} className="text-xl text-gray-700">
-                  <strong>{item.degree}</strong> – {item.institution} ({item.duration})
+                <li className="text-xl text-gray-700">
+                  <strong>Program:</strong> Study Abroad (Spring 2024)
                 </li>
-              ))}
             </ul>
           </div>
         </div>

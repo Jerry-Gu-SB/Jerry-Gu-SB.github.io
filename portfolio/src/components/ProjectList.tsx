@@ -3,13 +3,25 @@ import ShadowBox from './images/shadowbox.png';
 import SplitBall from './images/splitball.png';
 import Portfolio from './images/portolio.png';
 import HTTP from './images/HTTP.jpg';
+import ML4VA from './images/ML4VA.png';
+import ASDE from './images/ASDE.png';
 const ProjectList = [
+  {
+    title: 'Academic Project Tracker',
+    details: ['•	Deployed a project management website as DevOps team lead overseeing a team of four developers', 
+      '•	Utilized Django, Heroku, and AWS S3 to create a scalable and secure web application for tracking academic projects',
+      '• Led sprint meetings in an Agile environment to ensure project completion and team cohesion',
+      '• Check out the website by clicking here!'],
+    image: ASDE,
+    link: 'https://academic-project-tracker-ded80913e758.herokuapp.com/',
+  },
     {
-      title: 'Student Course Review App',
-      details: ['•	Designed and developed a class review application as a final project for Software Development Essentials course', 
-        '•	Engineered a 3-layer architecture pattern with JavaFX as the presentation layer, Java for logic, and SQLite for the backend'],
-      image: StudentCourseApp,
-      link: '',
+      title: 'ML4VA',
+      details: ['•	Secured third place in UVA "ML4VA" class competitition', 
+        '• Cleaned and visualized publicly available Kaggle dataset to predict SOL scores of Virginia schools',
+        '• Check out the repo by clicking here!'],
+      image: ML4VA,
+      link: 'https://github.com/Jerry-Gu-SB/ML4VA'
     },
     {
       title: 'ShadowBox Mouse Trainer ',
@@ -27,6 +39,13 @@ const ProjectList = [
       link: 'https://github.com/UVASGD/spring-2022-splitball',
     },
     {
+      title: 'Student Course Review App',
+      details: ['•	Designed and developed a class review application as a final project for Software Development Essentials course', 
+        '•	Engineered a 3-layer architecture pattern with JavaFX as the presentation layer, Java for logic, and SQLite for the backend'],
+      image: StudentCourseApp,
+      link: '',
+    },
+    {
       title: 'Personal Portfolio Website',
       details: ['•	Constructed a personal portfolio website using React + TypeScript, and designed using Tailwind CSS', 
         '•	Incorporated an email contact form using Formspree, providing direct communication with visitors', 
@@ -41,7 +60,8 @@ const ProjectList = [
         '• Check out the repo by clicking here!'],
       image: HTTP,
       link: 'https://github.com/Jerry-Gu-SB/socket-server-client'
-    }
+    },
+    
   ];
   
   export default ProjectList;
