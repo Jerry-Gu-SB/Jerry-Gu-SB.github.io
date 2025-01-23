@@ -11,9 +11,9 @@ const ProjectList = [
     details: ['•	Deployed a project management website as DevOps team lead overseeing a team of four developers', 
       '•	Utilized Django, Heroku, and AWS S3 to create a scalable and secure web application for tracking academic projects',
       '• Led sprint meetings in an Agile environment to ensure project completion and team cohesion',
-      '• Check out the website by clicking here!'],
+        ],
     image: ASDE,
-    link: 'https://academic-project-tracker-ded80913e758.herokuapp.com/',
+    link: '',
   },
     {
       title: 'ML4VA',
