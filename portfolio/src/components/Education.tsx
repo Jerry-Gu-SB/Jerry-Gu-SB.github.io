@@ -9,12 +9,12 @@ const Education: React.FC = () => {
     "Algorithms",
     "Discrete Mathematics",
 
-    "Cyber-Physical Systems\nTechnology and Ethics",
+    "Computer Game Design",
+    "Literary Games",
+    "Exploring Vampires in Video Games",
     
     "Linear Algebra",
     "Probability",
-    "Ordinary Differential Equations",
-    "Multivariable Calculus",
   ];
 
   // Initialize balls with clickable functionality
@@ -32,19 +32,19 @@ const Education: React.FC = () => {
     const mathCourses = [
       "Linear Algebra",
       "Probability",
-      "Ordinary Differential Equations",
-      "Multivariable Calculus",
     ];
 
-    const gradCourses = [
-      "Cyber-Physical Systems\nTechnology and Ethics",
+    const gameCourses = [
+      "Computer Game Design",
+      "Literary Games",
+      "Exploring Vampires in Video Games",
     ];
 
     if (csCourses.includes(course)) {
       color = "rgba(173, 100, 240, 1)";
     } else if (mathCourses.includes(course)) {
       color = "rgba(255, 100, 100, 1)";
-    } else if (gradCourses.includes(course)) {
+    } else if (gameCourses.includes(course)) {
       color = "rgba(80, 50, 240, 1)";
     } else {
       color = `hsl(${(index / coursework.length) * 360}, 100%, 50%)`;
