@@ -111,9 +111,9 @@ const Home: React.FC = () => {
       />
       <div className="w-2/3 h-auto bg-gray">
         <h1 className="text-4xl mb-2 font-bold">Jerry Gu</h1>
-        <p className="text-center text-2xl">Hey there! I'm a current student at the University of Virginia School of Engineering studying computer science looking for full time developer positions. 
+        <p className="text-center text-2xl">Hey there! I'm a recent spring 2025 Computer Science graduate at the University of Virginia. 
         I've created games, websites, and more so far in my software engineer journey and I'm always looking for opportunities to let me express myself in my work!
-        In my free time I love to practice kendo, voice act, and make YouTube videos! I'm always looking for new things to learn and new people to meet, so feel free to reach out to me and check out my stuff at the links below!
+        In my free time I love to practice kendo, voice act, and work on my videogames. I'm always looking for new things to learn and new people to meet, so feel free to reach out to me and check out my stuff at the links below!
         </p>
       </div>
       <div className="mt-4 mb-4 flex space-x-2">
@@ -136,6 +136,17 @@ const Home: React.FC = () => {
           <img
             src={require("./images/github.png")}
             alt="GitHub"
+            className="w-16 h-16"
+          />
+        </a>
+        <a
+          href="https://jerrygu.itch.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("./images/games.png")}
+            alt="Play My Games"
             className="w-16 h-16"
           />
         </a>

@@ -28,6 +28,17 @@ const Footer: React.FC = () => {
             />
           </a>
           <a
+          href="https://jerrygu.itch.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("./images/games.png")}
+            alt="Play My Games"
+            className="w-16 h-16"
+          />
+        </a>
+          <a
             href={require("./misc-files/Jerry_Gu_resume.pdf")}
             target="_blank"
             rel="noopener noreferrer"
