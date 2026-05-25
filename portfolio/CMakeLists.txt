@@ -3,38 +3,40 @@ project(StaticSiteGenerator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-# Allow FetchContent_Populate in CMake 4.x
-if(POLICY CMP0169)
-    cmake_policy(SET CMP0169 OLD)
-endif()
-
 include(FetchContent)
 
-# Declare the download payload
 FetchContent_Declare(
-        maddy_download
-        URL https://github.com/progsource/maddy/releases/download/1.6.0/maddy-src.zip
+        md4c
+        GIT_REPOSITORY https://github.com/mity/md4c.git
+        GIT_TAG release-0.5.2
 )
 
-# Extract files ONLY. Do NOT process maddy's broken CMakeLists.txt.
-FetchContent_GetProperties(maddy_download)
-if(NOT maddy_download_POPULATED)
-    FetchContent_Populate(maddy_download)
-endif()
+FetchContent_MakeAvailable(md4c)
 
-# Create a clean, virtual target for your executable to link against
-add_library(maddy_lib INTERFACE)
-target_include_directories(maddy_lib INTERFACE ${maddy_download_SOURCE_DIR}/include)
+add_executable(${PROJECT_NAME} main.cpp)
+target_compile_options(md4c PRIVATE -w)
+target_compile_options(md4c-html PRIVATE -w)
+target_link_libraries(${PROJECT_NAME}
+        PRIVATE
+        md4c
+        md4c-html
+)
 
-# Define and link your executable target
-add_executable(StaticSiteGenerator main.cpp)
-target_link_libraries(StaticSiteGenerator PRIVATE maddy_lib)
+# ============================================= COPY FILES ============================================
 
+function(copy_md_files_to_target_dir target)
+    add_custom_command(
+            TARGET ${target} POST_BUILD
+            COMMAND ${CMAKE_COMMAND} -E copy_directory
+            "$<TARGET_PROPERTY:${target},SOURCE_DIR>/md_files"
+            "$<TARGET_PROPERTY:${target},BINARY_DIR>/md_files"
+    )
+endfunction()
+copy_md_files_to_target_dir(${PROJECT_NAME})
 
-add_custom_command(
-        TARGET StaticSiteGenerator POST_BUILD
-        COMMAND ${CMAKE_COMMAND} -E copy_directory
-        "${CMAKE_CURRENT_SOURCE_DIR}/md_files"
-        "${CMAKE_CURRENT_BINARY_DIR}/md_files"
-        COMMENT "Copying markdown files directory to build output..."
+# By tamas.kenez - https://stackoverflow.com/a/34800667
+configure_file(
+        styles.css
+        ${CMAKE_CURRENT_BINARY_DIR}/public/styles.css
+        COPYONLY
 )

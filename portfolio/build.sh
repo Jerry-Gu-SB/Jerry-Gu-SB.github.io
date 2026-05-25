@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -r cmake-build-debug
+rm -fr cmake-build-debug
 mkdir -p cmake-build-debug && cd cmake-build-debug
 cmake ..
 make

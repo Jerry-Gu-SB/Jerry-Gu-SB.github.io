@@ -1,4 +1,5 @@
-﻿# test beeg one hashtag
+﻿
+# test beeg one hashtag
 ## test medium
 ### test small
 #### test tiny four hashtag
@@ -11,16 +12,12 @@ _yeee i'm italicied_
 
 `yeee i'm a line of code`
 
-~~~
+```js
+var foo = function (bar) {
+  return bar++;
+};
 
-
-what the heck is this
-~~~
-
-```python
-main():
-    print("i'm python!")
-
+console.log(foo(5));
 ```
 
 yippeeeee
