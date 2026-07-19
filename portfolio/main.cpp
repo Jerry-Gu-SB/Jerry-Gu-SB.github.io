@@ -81,11 +81,13 @@ int main() {
   <title>My Great Site</title>
 </head>
 <body>
+<div id="content-wrapper">
         )";
         html_file << header_html;
         html_file << htmlOutput;
 
         std::string footer_html = R"(
+</div>
 </body>
 </html>
         )";

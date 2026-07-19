@@ -17,9 +17,9 @@ h3 {
 
 #content-wrapper {
     width:960px;
-    text-align:center;
+    text-align:left;
     margin:0 auto;
-    background:#fff;
+    background:#d6d6d6;
     padding:15px;
 
 }
@@ -27,12 +27,6 @@ h3 {
 #header{
     width:960px;
     height:120px;
-}
-
-#post-content {
-    float:center;
-    width:600px;
-    padding:0 15px 15px 15px;
 }
 
 .sidebar{
