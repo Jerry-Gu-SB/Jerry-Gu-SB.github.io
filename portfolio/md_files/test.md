@@ -29,3 +29,7 @@ yippeeeee
 1. one
 2. two
 3. three
+
+[hyperlink website test](https://jerry-gu.com/)
+
+![image test](https://media.tenor.com/mxj3kPECTpcAAAAM/hand-on-shoulder-meme.gif)
