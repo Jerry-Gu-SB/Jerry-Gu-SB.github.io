@@ -78,7 +78,8 @@ int main() {
 <head>
   <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8" />
-  <title>My Great Site</title>
+  <title>Under Construction...</title>
+  <link rel="icon" type="image/x-icon" href="/artifacts/SpiralBiscuit.jpg">
 </head>
 <body>
 <div id="content-wrapper">
