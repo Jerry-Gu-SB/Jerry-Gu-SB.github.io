@@ -1,3 +1,5 @@
+# Hi 자기
+
 # Under construction! 
 
 ## See [this site's repository](https://github.com/Jerry-Gu-SB/Jerry-Gu-SB.github.io/)  for progress...
