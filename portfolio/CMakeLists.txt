@@ -21,22 +21,3 @@ target_link_libraries(${PROJECT_NAME}
         md4c
         md4c-html
 )
-
-# ============================================= COPY FILES ============================================
-
-function(copy_md_files_to_target_dir target)
-    add_custom_command(
-            TARGET ${target} POST_BUILD
-            COMMAND ${CMAKE_COMMAND} -E copy_directory
-            "$<TARGET_PROPERTY:${target},SOURCE_DIR>/md_files"
-            "$<TARGET_PROPERTY:${target},BINARY_DIR>/md_files"
-    )
-endfunction()
-copy_md_files_to_target_dir(${PROJECT_NAME})
-
-# By tamas.kenez - https://stackoverflow.com/a/34800667
-configure_file(
-        styles.css
-        ${CMAKE_CURRENT_BINARY_DIR}/public/styles.css
-        COPYONLY
-)

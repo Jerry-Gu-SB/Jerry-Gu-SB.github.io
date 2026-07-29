@@ -12,8 +12,8 @@ void html_output(const MD_CHAR* text, MD_SIZE size, void* userdata)
 
 int main() {
 
-    const std::string MD_FILE_DIRECTORY = "md_files";
-    const std::string PUBLIC_DIRECTORY = "public";
+    const std::string MD_FILE_DIRECTORY = "../md_files";
+    const std::string PUBLIC_DIRECTORY = "../public";
 
 
     if (!std::filesystem::exists(MD_FILE_DIRECTORY)) {
