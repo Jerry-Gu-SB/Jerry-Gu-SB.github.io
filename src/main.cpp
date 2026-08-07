@@ -4,7 +4,7 @@
 #include <md4c.h>
 #include <md4c-html.h>
 
-
+// REMEMBER THIS IS RUNNING FROM cmake-build-debug
 const std::string MD_FILE_DIRECTORY = "../md_files";
 const std::string PUBLIC_DIRECTORY = "../../docs";
 
@@ -69,7 +69,7 @@ std::string get_markdown_raw(const std::string& markdown_path) {
     return str;
 }
 
-bool build_html_in_directory(const std::string& directory_path) {
+bool build_html_in_directory(const std::string& directory_path, const std::filesystem::path &styles_path) {
     for (const auto& entry : std::filesystem::directory_iterator(directory_path)) {
         std::string markdown_path(entry.path().string());
         std::cout << "Current file: " << markdown_path << std::endl;
@@ -82,7 +82,7 @@ bool build_html_in_directory(const std::string& directory_path) {
             const std::string new_folder_destination = PUBLIC_DIRECTORY + new_folder_path;
 
             create_directory(new_folder_destination);
-            build_html_in_directory(markdown_path);
+            build_html_in_directory(markdown_path, styles_path);
             return false;
         }
 
@@ -114,8 +114,12 @@ bool build_html_in_directory(const std::string& directory_path) {
         std::size_t md_directory_index = directory_path.find(MD_FILE_DIRECTORY);
         std::string folder_path = directory_path.substr(md_directory_index + MD_FILE_DIRECTORY.length());
         std::string destination = PUBLIC_DIRECTORY + folder_path;
-        destination.append("/").append(file_name);
 
+        std::filesystem::path destination_path = destination;
+        std::cout << destination_path << std::endl;
+        std::filesystem::copy(styles_path, destination_path, std::filesystem::copy_options::update_existing);
+
+        destination.append("/").append(file_name);
         std::cout << "Writing to: " << destination << std::endl;
 
         if (write_html_file(htmlOutput, destination)) {
@@ -129,7 +133,10 @@ int main() {
     create_directory(MD_FILE_DIRECTORY);
     create_directory(PUBLIC_DIRECTORY);
 
-    if (build_html_in_directory(MD_FILE_DIRECTORY)) {
+    std::filesystem::path styles_path = std::filesystem::current_path().parent_path() / "styles.css";
+    std::cout << "styles path: " << styles_path << std::endl;
+
+    if (build_html_in_directory(MD_FILE_DIRECTORY, styles_path)) {
         return 1;
     }
     std::cout << "done!" << std::endl;
