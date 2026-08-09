@@ -21,3 +21,4 @@ target_link_libraries(${PROJECT_NAME}
         md4c
         md4c-html
 )
+target_include_directories(${PROJECT_NAME} PRIVATE ${md4c_SOURCE_DIR}/src)
