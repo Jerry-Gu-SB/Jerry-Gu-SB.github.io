@@ -1,3 +1,3 @@
 # TEST
 
-[Return Home](https://jerry-gu.com/blog/)
+[Return Home](https://jerry-gu.com/)
