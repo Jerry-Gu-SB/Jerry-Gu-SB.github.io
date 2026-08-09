@@ -15,10 +15,10 @@ When I'm not programming, you can find me practicing kendo, gaming, collecting C
 If you'd like to get into contact, please email me at [jerrysonggu@gmail.com](mailto:jerrysonggu@gmail.com)
 
 
-- Check out my programming portfolio!
+- [Check out my programming portfolio!](https://jerry-gu.com/code)
 
-- Play my games!
+- [Play my games!](https://jerrygu.itch.io/)
 
 - Download my CV!
 
-- [Read my ramblings!](jerry-gu.com/blog/test-blog.html)
+- [Read my ramblings!](https://jerry-gu.com/blog/)
