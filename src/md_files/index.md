@@ -19,6 +19,6 @@ If you'd like to get into contact, please email me at [jerrysonggu@gmail.com](ma
 
 - [Play my games!](https://jerrygu.itch.io/)
 
-- Download my CV!
+- [Download my Resume!](artifacts/Jerry_Gu_resume.pdf)
 
 - [Read my ramblings!](https://jerry-gu.com/blog/)
