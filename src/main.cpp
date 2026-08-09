@@ -4,6 +4,8 @@
 #include <md4c.h>
 #include <md4c-html.h>
 
+namespace fs = std::filesystem;
+
 // REMEMBER THIS IS RUNNING FROM cmake-build-debug
 const std::string MD_FILE_DIRECTORY = "../md_files";
 const std::string PUBLIC_DIRECTORY = "../../docs";
@@ -16,9 +18,9 @@ void html_output(const MD_CHAR* text, MD_SIZE size, void* userdata)
 }
 
 void create_directory(const std::string& directory_string) {
-    if (!std::filesystem::exists(directory_string)) {
+    if (!fs::exists(directory_string)) {
         std::cout << directory_string << " does not exist!\n" << std::endl;
-        std::filesystem::create_directory(directory_string);
+        fs::create_directory(directory_string);
     }
 }
 
@@ -29,10 +31,11 @@ bool write_html_file(const std::string& htmlOutput, const std::string& destinati
         return true;
     }
 
+    // Remember that the HTML files when actually loaded don't see docs, but docs is just
     const std::string header_html = R"(<!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
   <meta charset="utf-8" />
   <title>Under Construction...</title>
   <link rel="icon" type="image/x-icon" href="/artifacts/favicon.png">
@@ -69,8 +72,8 @@ std::string get_markdown_raw(const std::string& markdown_path) {
     return str;
 }
 
-bool build_html_in_directory(const std::string& directory_path, const std::filesystem::path &styles_path) {
-    for (const auto& entry : std::filesystem::directory_iterator(directory_path)) {
+bool build_html_in_directory(const std::string& directory_path) {
+    for (const auto& entry : fs::directory_iterator(directory_path)) {
         std::string markdown_path(entry.path().string());
         std::cout << "Current file: " << markdown_path << std::endl;
 
@@ -82,7 +85,7 @@ bool build_html_in_directory(const std::string& directory_path, const std::files
             const std::string new_folder_destination = PUBLIC_DIRECTORY + new_folder_path;
 
             create_directory(new_folder_destination);
-            build_html_in_directory(markdown_path, styles_path);
+            build_html_in_directory(markdown_path);
             return false;
         }
 
@@ -115,10 +118,6 @@ bool build_html_in_directory(const std::string& directory_path, const std::files
         std::string folder_path = directory_path.substr(md_directory_index + MD_FILE_DIRECTORY.length());
         std::string destination = PUBLIC_DIRECTORY + folder_path;
 
-        std::filesystem::path destination_path = destination;
-        std::cout << destination_path << std::endl;
-        std::filesystem::copy(styles_path, destination_path, std::filesystem::copy_options::update_existing);
-
         destination.append("/").append(file_name);
         std::cout << "Writing to: " << destination << std::endl;
 
@@ -133,10 +132,7 @@ int main() {
     create_directory(MD_FILE_DIRECTORY);
     create_directory(PUBLIC_DIRECTORY);
 
-    std::filesystem::path styles_path = std::filesystem::current_path().parent_path() / "styles.css";
-    std::cout << "styles path: " << styles_path << std::endl;
-
-    if (build_html_in_directory(MD_FILE_DIRECTORY, styles_path)) {
+    if (build_html_in_directory(MD_FILE_DIRECTORY)) {
         return 1;
     }
     std::cout << "done!" << std::endl;
