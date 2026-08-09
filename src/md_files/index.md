@@ -1,6 +1,4 @@
-# Under construction! 
-
-## See [this site's repository](https://github.com/Jerry-Gu-SB/Jerry-Gu-SB.github.io/)  for progress...
+## Jerry Gu
 
 Hello! I'm Jerry Gu, a software developer currently based in Richmond, Virginia. I'm currently working on scalable
 machine vision systems at BNSF Railway. I'm also creating a fighting game called ALL OR NOTHING in my 
@@ -13,7 +11,9 @@ abroad for a semester in Seoul, South Korea at Seoul National University.
 
 When I'm not programming, you can find me practicing kendo, gaming, collecting CDs, writing blogs, and voice acting, probably in that order.
 
-If you'd like to get into contact, please email me at [jerrysonggu@gmail.com](mailto:jerrysonggu@gmail.com)
+If you'd like to get into contact, please email me at [jerrysonggu@gmail.com](mailto:jerrysonggu@gmail.com). 
+
+### While you're here:
 
 - [Read my blog where I write about game design and other topics!](https://jerry-gu.com/blog/)
 

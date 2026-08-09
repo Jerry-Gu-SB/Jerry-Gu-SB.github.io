@@ -1,5 +1,5 @@
 # Portfolio:
-_To see all of my work, check out [my GitHub!](https://github.com/Jerry-Gu-SB/)_
+_To see all of my work, check out [my GitHub](https://github.com/Jerry-Gu-SB/)_ or [my itch.io!](https://jerrygu.itch.io/)
 
 ## ALL OR NOTHING:
 
@@ -30,7 +30,7 @@ and [see how many you can beat](https://jerrygu.itch.io/jack-in-the-box)!
 Achieved 3rd place in the ML4VA Machine learning competition by training an XGBoost algorithm based off of public 
 Virginia testing data to predict Virginia K-12 State Assessment pass rates based on various socioeconomic factors. To do
 this, we cleaned a public Kaggle dataset and trained various different kinds of models until we found XGBoost to be most
-effective, achieving an $R^2$ score of 0.7683.
+effective, achieving an R-Squared score of 0.7683. [See the source code here!](https://github.com/Jerry-Gu-SB/ML4VA)
 
 <p align="center">
   <img src="artifacts/ML4VA.png" alt="ML4VA Image" style="max-width: 50%; height: auto;"/>

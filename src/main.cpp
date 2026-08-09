@@ -37,7 +37,7 @@ bool write_html_file(const std::string& htmlOutput, const std::string& destinati
 <head>
   <link rel="stylesheet" href="/styles.css">
   <meta charset="utf-8" />
-  <title>Under Construction...</title>
+  <title>Jerry Gu</title>
   <link rel="icon" type="image/x-icon" href="/artifacts/favicon.png">
 </head>
 <body>
