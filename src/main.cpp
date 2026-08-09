@@ -48,6 +48,7 @@ bool write_html_file(const std::string& htmlOutput, const std::string& destinati
     html_file << htmlOutput;
 
     const std::string footer_html = R"(
+<p>© 2026 Jerry Gu. All Rights Reserved.</p>
 </div>
 </body>
 </html>
