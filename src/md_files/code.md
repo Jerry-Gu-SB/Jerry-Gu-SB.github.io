@@ -7,7 +7,11 @@ Currently working on an original indie fighting game in the IKEMEN-GO engine. Wh
 project for the Fighting Game Jam turned into a full-featured game. [Come see our progress!](https://github.com/Jerry-Gu-SB/ALL-OR-NOTHING-GO)
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/1489677151715463368/1532551077835309086/image.png?ex=6a79c92a&is=6a7877aa&hm=bab613ebab5e224e532c06a12076e40314abf0fcddd4e624bde6efcf0f846c27&=&format=webp&quality=lossless" alt="AoN Art" style="max-width: 50%; height: auto;"/>
+  <img src="artifacts/portfolio/AON-Art.png" alt="AoN Art" style="max-width: 50%; height: auto;"/>
+</p>
+
+<p align="center">
+  <img src="artifacts/portfolio/AON-Gameplay" alt="AoN Gameplay" style="max-width: 50%; height: auto;"/>
 </p>
 
 ## Jack in the Box:
@@ -17,11 +21,11 @@ design document, prototyped out game mechanics, and then build the whole thing o
 and [see how many you can beat](https://jerrygu.itch.io/jack-in-the-box)!
 
 <p align="center">
-  <img src="artifacts/Jack-In-The-Box.PNG" alt="Jack In The Box Screen" style="max-width: 50%; height: auto;"/>
+  <img src="artifacts/portfolio/Jack-In-The-Box.PNG" alt="Jack In The Box Screen" style="max-width: 50%; height: auto;"/>
 </p>
 
 <p align="center">
-  <img src="artifacts/Jack-In-The-Box-gameplay.PNG" alt="Jack In The Box Gameplay" style="max-width: 50%; height: auto;"/>
+  <img src="artifacts/portfolio/Jack-In-The-Box-gameplay.PNG" alt="Jack In The Box Gameplay" style="max-width: 50%; height: auto;"/>
 </p>
 
 
@@ -33,7 +37,7 @@ this, we cleaned a public Kaggle dataset and trained various different kinds of 
 effective, achieving an R-Squared score of 0.7683. [See the source code here!](https://github.com/Jerry-Gu-SB/ML4VA)
 
 <p align="center">
-  <img src="artifacts/ML4VA.png" alt="ML4VA Image" style="max-width: 50%; height: auto;"/>
+  <img src="artifacts/portfolio/ML4VA.png" alt="ML4VA Image" style="max-width: 50%; height: auto;"/>
 </p>
 
 
@@ -44,7 +48,7 @@ the levels and implemented the Donkey Kong inspired section. This was one of my 
 a great experience. [Complete the ritual before it is too late!](https://rachenite.itch.io/strega)
 
 <p align="center">
-  <img src="artifacts/Strega.PNG" alt="ML4VA Image" style="max-width: 50%; height: auto;"/>
+  <img src="artifacts/portfolio/Strega.PNG" alt="ML4VA Image" style="max-width: 50%; height: auto;"/>
 </p>
 
 ## ShadowBox:
@@ -55,7 +59,18 @@ gone public yet. Was just me, YouTube tutorials, and way too much free time.
 [Let's train those mouse skills!](https://jerrygu.itch.io/shadowbox)
 
 <p align="center">
-  <img src="artifacts/Shadowbox.PNG" alt="ML4VA Image" style="max-width: 50%; height: auto;"/>
+  <img src="artifacts/portfolio/Shadowbox.PNG" alt="ML4VA Image" style="max-width: 50%; height: auto;"/>
+</p>
+
+## Business Case Form:
+
+This is a web form I was an engineer on for an intern project I did at UDig. This was my first professional project 
+where I did the frontend work for a public form. Before, this was just a giant confusing Excel sheet they would send to
+clients that we streamlined with a simple web form that would generate a simple business report they could export. 
+[Read how we did it here!](https://www.udig.com/insights/blog/revolutionizing-business-case-templates)
+
+<p align="center">
+  <img src="artifacts/portfolio/UDig-business-form-screenshot.png" alt="ML4VA Image" style="max-width: 50%; height: auto;"/>
 </p>
 
 
