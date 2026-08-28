@@ -35,8 +35,9 @@ with Persona 4 to the PlayStation 3/4 release for Persona 5.
 <p align="center">
   <img src="artifacts/blogs/game-density/Persona-Maps.png" alt="Persona Maps" style="max-width: 50%; height: auto;"/>
 </p>
+
 <p align="center">
-    <small>You're constantly getting new locations deep into P5, even ones with a complete open world!</small>
+    <small>You're constantly getting new locations deep into P5, even ones with a complete open world.</small>
 </p>
 
 However, it's not just the number of choices a player has, but also the way they are spread out can have a significant
@@ -57,7 +58,7 @@ only a bustling city with other players, but a living breathing natural world.
 
 <p align="center">
   <img src="https://assetsio.gnwcdn.com/final-fantasy14-state-of-the-game-39.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp" 
-    alt="Persona Maps" style="max-width: 50%; height: auto;"/>
+    alt="FF14 World" style="max-width: 50%; height: auto;"/>
 </p>
 <p align="center">
     <small>Even when you unlock flying mounts, the world is so big it often still takes a decent amount of time to travel!</small>

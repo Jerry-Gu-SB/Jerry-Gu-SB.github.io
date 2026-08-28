@@ -11,7 +11,7 @@ project for the Fighting Game Jam turned into a full-featured game. [Come see ou
 </p>
 
 <p align="center">
-  <img src="artifacts/portfolio/AON-Gameplay" alt="AoN Gameplay" style="max-width: 50%; height: auto;"/>
+  <img src="artifacts/portfolio/AON-Gameplay.png" alt="AoN Gameplay" style="max-width: 50%; height: auto;"/>
 </p>
 
 ## Jack in the Box:
