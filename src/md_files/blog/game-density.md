@@ -37,7 +37,7 @@ with Persona 4 to the PlayStation 3/4 release for Persona 5.
 </p>
 
 <p align="center">
-    <small>You're constantly getting new locations deep into P5, even ones with a complete open world.</small>
+    <small>You're constantly getting new locations deep into a P5R run</small>
 </p>
 
 However, it's not just the number of choices a player has, but also the way they are spread out can have a significant
@@ -61,7 +61,7 @@ only a bustling city with other players, but a living breathing natural world.
     alt="FF14 World" style="max-width: 50%; height: auto;"/>
 </p>
 <p align="center">
-    <small>Even when you unlock flying mounts, the world is so big it often still takes a decent amount of time to travel!</small>
+    <small>Even with flying mounts, it often still takes a decent amount of time to travel!</small>
 </p>
 
 On the other hand, some game genres are built on very dense experiences such as roguelikes or even fighting games. 
@@ -73,6 +73,8 @@ actual game's design. But I've already diverged quite far from where we've start
 day.
 
 By framing our understanding of creating games in the density of decisions, we can model something akin to pacing in all
-sorts of games, but in a manner that is entirely unique to games themselves: **Player Decisions**. 
-jerry-gu.com/blog/)  
+sorts of games, but in a manner that is entirely unique to games themselves: **Player Decisions**.  
+
+
+[Return to Blogs](https://jerry-gu.com/blog/)  
 [Return Home](https://jerry-gu.com/)
