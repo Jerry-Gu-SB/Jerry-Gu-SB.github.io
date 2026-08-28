@@ -33,7 +33,7 @@ downtown Tokyo. My guess is that this was in large part due to the hardware capa
 with Persona 4 to the PlayStation 3/4 release for Persona 5. 
 
 <p align="center">
-  <img src="artifacts/blogs/game-density/Persona Maps.png" alt="Persona Maps" style="max-width: 50%; height: auto;"/>
+  <img src="artifacts/blogs/game-density/Persona-Maps.png" alt="Persona Maps" style="max-width: 50%; height: auto;"/>
 </p>
 <p align="center">
     <small>You're constantly getting new locations deep into P5, even ones with a complete open world!</small>
@@ -73,6 +73,5 @@ day.
 
 By framing our understanding of creating games in the density of decisions, we can model something akin to pacing in all
 sorts of games, but in a manner that is entirely unique to games themselves: **Player Decisions**. 
-
-[Return to Blogs](https://jerry-gu.com/blog/)  
+jerry-gu.com/blog/)  
 [Return Home](https://jerry-gu.com/)
