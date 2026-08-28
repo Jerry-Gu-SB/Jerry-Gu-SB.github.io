@@ -7,11 +7,11 @@ Currently working on an original indie fighting game in the IKEMEN-GO engine. Wh
 project for the Fighting Game Jam turned into a full-featured game. [Come see our progress!](https://github.com/Jerry-Gu-SB/ALL-OR-NOTHING-GO)
 
 <p align="center">
-  <img src="artifacts/portfolio/AON-Art.png" alt="AoN Art" style="max-width: 50%; height: auto;"/>
+  <img src="/artifacts/portfolio/AON-Art.png" alt="AoN Art" style="max-width: 50%; height: auto;"/>
 </p>
 
 <p align="center">
-  <img src="artifacts/portfolio/AON-Gameplay.png" alt="AoN Gameplay" style="max-width: 50%; height: auto;"/>
+  <img src="/artifacts/portfolio/AON-Gameplay.png" alt="AoN Gameplay" style="max-width: 50%; height: auto;"/>
 </p>
 
 ## Jack in the Box:
