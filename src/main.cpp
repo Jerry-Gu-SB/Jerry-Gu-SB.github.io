@@ -9,7 +9,17 @@ namespace fs = std::filesystem;
 // REMEMBER THIS IS RUNNING FROM cmake-build-debug
 const std::string MD_FILE_DIRECTORY = "../md_files";
 const std::string PUBLIC_DIRECTORY = "../../docs";
+const unsigned PARSER_FLAGS =
+    MD_FLAG_TABLES |
+    MD_FLAG_TASKLISTS |
+    MD_FLAG_STRIKETHROUGH |
+    MD_FLAG_PERMISSIVEURLAUTOLINKS |
+    MD_FLAG_LATEXMATHSPANS |
+    MD_FLAG_PERMISSIVEWWWAUTOLINKS |
+    MD_FLAG_PERMISSIVEEMAILAUTOLINKS |
+    MD_FLAG_PERMISSIVEWWWAUTOLINKS ;
 
+    // add spoilers, subscripts, superscripts, highlights, and GH admonitions for next md4c release
 
 void html_output(const MD_CHAR* text, MD_SIZE size, void* userdata)
 {
@@ -98,7 +108,7 @@ bool build_html_in_directory(const std::string& directory_path) {
             str.size(),
             html_output,
             &htmlOutput,
-            0,
+            PARSER_FLAGS,
             0
         );
 
