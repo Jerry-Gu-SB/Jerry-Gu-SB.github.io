@@ -1,8 +1,9 @@
-# DRAFT Multiplayer Roles in Competitive Games Are Design Debt
+# Roles Are Design Debt
 
-I've been an avid follower of League of Legends since Season 2 and it's been fascinating to see the trajectory of its 
-evolution for over 10 years and how the designers face its various problems. However, in the past couple years, the 
-biggest issue that seems to have plagued the designers time and time again has been the problem of defined roles.
+Even though I'd categorize myself as mainly at RTS player, I've been an avid follower of League of Legends since Season 2. 
+Over the 15 years (jesus) it's been fascinating to see the trajectory of its evolution for over 10 years and how the designers face its 
+various problems. However, in the past couple years, the biggest issue that seems to have plagued the designers time 
+and time again has been the problem of defined roles.
 
 For some quick history, the roles of LoL top, mid, jungle, ADC, and support simply did not exist when the game first 
 arrived. Even when I first started playing, seeing 2 people top and no jungler was a common sight in lower elos. It 
@@ -129,36 +130,51 @@ video: [The WatchOver: Every Era in Overwatch Explained](https://youtu.be/8Mylhy
 Overwatch doesn't even have limited resources and thus doesn't have to deal with a zero-sum resource game like League of 
 Legends, and yet _still_ suffered from this by sheer class power imbalance. 
 
+<p align="center">
+  <img src="https://nationalzoo.si.edu/sites/default/files/paragraphs/single_image/20180628-634sb.jpg" alt="Yuumi" style="max-width: 50%; height: auto;"/>
+</p>
+<p align="center">
+    <small>IYKYK</small>
+</p>
+
+
 ### This is all to say the more specific classes you have, the harder your life will become
 
 It isn't necessarily bad to have a role only sequestered into one location, so long as there's a "natural" reason for 
 that role to exist. Take for instance, jungling in League of Legends. Rather than fight the minions that regularly 
 spawn, there is a forest between the lanes in which there are monsters that similarly give resources. Naturally, a 
 jungler role emerged as it was more efficient to have somebody fully dedicated to getting resources from these monsters, 
-rather than sharing lane resources with another person (but even this had has some strange metagames with regards to 
-sometimes having multiple junglers and other game-breaking possibilities). The map design lent itself to a role that was 
+rather than sharing lane resources with another person. The map design lent itself to a role that was 
 defined merely by where they went and what they did without having to put in external and opaque rules to shoehorn 
 players into their places. 
 
-Probably one of the classes that gives the most grief is AD Carry. While other roles are defined merely by their 
-location, AD Carry is specifically designed for auto-attack based champions to exist. While this has more recently 
-moved to being called Bot[om] lane, the vast majority of players in this role specialize in these auto attack champions 
-and usually enjoy playing these champions exclusively. 
+One of the classes that gets the most grief from getting its role subsumed would be the AD Carry class. While other 
+roles are defined merely by their location, AD Carry is specifically designed for auto-attack based champions to exist. 
+While this has more recently moved to being called Bot[om] lane, the vast majority of players in this role specialize 
+in these auto attack champions and usually enjoy playing these champions exclusively. Because the damage type is baked
+into the role alongside the location, it can be very frustrating for these hyper specialized players to be pushed out 
+of their role. This recently has been happening due to the strength of mages in the bot lane which were traditionally
+reserved for the mid lane.
 
 ## Classes are hard, but can be very rewarding when designed well
 
-The more specialized your classes are, the more problems you will likely eventually have to face because you are 
-essentially fracturing your playerbase into different segments. Inevitably some of those segments will have periods 
-of strength sometimes at the detriment of the others. This may give you cause to implement out of game matchmaking based
-on these segments and codify them into the game to improve player out of game experience. But often those defined 
-segments didn't actually have to exist within the context of a competitive metagame in the first place. Instead they 
-were merely a transient meta that you as the deveoper have now locked into the game, and players have come to expect. 
+The more specialized your classes are, the more problems you may have to face because you are 
+ fracturing your playerbase into different segments. Inevitably, some of those segments will have periods 
+of strength sometimes compared to the others, and maybe even at the detriment of others. This may give you cause to 
+implement out of game matchmaking role queues and codify them into the game to improve player out of game experience. 
+But be careful if those defined segments didn't actually have to exist within the context of a competitive metagame in 
+the first place. If the roles were merely a transient meta that you as the developer have now locked into the game, 
+you may have accidentally signed a design mortgage you'll spend the entire rest of the game's lifecycle paying off. 
 
 Just because something carries much design debt, doesn't necessarily mean you shouldn't have them. Having a role is what
-it means to live in a society, as we literally "have a role in society." Without any defined role, the players will 
-inevitably come into conflict when you allow them to fight for the roles without any matchmaking. When a team of players
-come together to become more than the some of their individual parts, it can be some of the most rewarding experiences 
-multiplayer games have to offer.
+it means to live in a society, as we literally "have a role in society." When a team of players  come together to become
+more than the sum of their individual parts, it can be some of the most rewarding experiences multiplayer games have to 
+offer.
 
-It's important then to define them specifically enough to capture the essence of what it might mean to play that role, 
-but not so specific where you have to begin creating extra rules to artificially keep the roles in place. 
+Hope you have a good day and may your next team not have any autofills~ 
+
+
+Jerry
+
+[Return to Blogs](https://jerry-gu.com/blog/)  
+[Return Home](https://jerry-gu.com/)
