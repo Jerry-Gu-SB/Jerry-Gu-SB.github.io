@@ -11,6 +11,15 @@ It wasn't the prettiest thing, or the fanciest thing, but it was what I could vi
 purpose and worked well enough. But the process of building something that was representative of who I was to be launched
 into the interwebs in perpetuity wasn't representative of why I wanted to do computer science in the first place.
 
+<p align="center">
+  <img src="`" alt="Persona Maps" style="max-width: 50%; height: auto;"/>
+</p>
+
+<p align="center">
+    <small></small>
+</p>
+
+
 ## Being a Student in the Age of Gippity
 
 ChatGPT really came into the public eye with GPT 3 when I was in my second year of my computer science degree, and boy
@@ -38,6 +47,14 @@ personal projects, but still using an LLM to try and generate my way to somethin
 with any of those projects for longer than a couple months. As soon as I ran into a bug GPT couldn't solve, I didn't 
 know the codebase well enough and would just give up.
 
+<p align="center">
+  <img src="https://s.studiobinder.com/wp-content/uploads/2021/12/The-Dark-Knight-Interrogation-Scene-Explained-Free-Dark-Knight-Script-PDF.jpg" alt="Joker and Batman Interrogation" style="max-width: 50%; height: auto;"/>
+</p>
+
+<p align="center">
+    <small>Average LLM coding experience</small>
+</p>
+
 ## Interrogating an LLM is Just Not That Fun
 
 Don't get me wrong, I don't want this to be another crusade against AI. As a programmer, AI clearly is pretty dang good
@@ -54,7 +71,7 @@ really appreciate it in those moments.
 
 But sitting down and interrogating the LLM as to why it's hallucinating, why it's made certain decisions, or why it 
 decided to commit something horrible to Git despite my explicit instructions is just not a joyful experience. I'm more
-supervising a factory assembly line of code, than sitting down and crafting it myself. 
+supervising a factory assembly line of code, than sitting down and crafting it myself.
 
 So when I sat down and decided I wanted to learn a new language, C++ came to my mind as the primary candidate. I was 
 pretty interested in graphics programming as it seemed pretty cool to draw pictures and I learned a lot about how 
@@ -73,12 +90,20 @@ the self. That's why I chose this barebones HTML static site aesthetic, because 
 through the noise. I scrapped the flashy interactive JavaScript pointer because that wasn't who I was, or what I wanted
 to do. I put that in because I thought it might impress somebody else, not because I wanted to make something. I didn't
 make it after all, I took that from somebody else! Not that I didn't take any code from other people for this site, this
-HTML you're reading was parsed by the [md4c Markdown to CPP parser](https://github.com/mity/md4c).
+HTML you're reading was parsed by the [md4c Markdown to CPP parser](https://github.com/mity/md4c). The idea to rebuild this website and to blog,
+and to even do a Static Site Generator came from coming across [this article](https://cthor.me/Fighting-games-product-design)
+on fighting games from PhiDX's video commentating over it. 
+
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qqR63MQV8ZQ?si=tk1yqMCIbxuiyQ4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 Sidenote: when it came to fixing bugs related to CMake, I eventually did just ask an LLM to help me write the CMake because
 honestly it was so frustrating and joyless I might as well hand it to the LLM. Why am I learning a new confusing language
 just to have my CPP compile??? So confusing to try and get this package in, and actually a lot of the LLM solutions 
 were very wrong anyway whoooops.
+
+
 
 ## Am I... Enjoying LeetCode????
 
