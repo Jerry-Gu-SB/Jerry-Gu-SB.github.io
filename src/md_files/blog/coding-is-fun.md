@@ -12,11 +12,11 @@ purpose and worked well enough. But the process of building something that was r
 into the interwebs in perpetuity wasn't representative of why I wanted to do computer science in the first place.
 
 <p align="center">
-  <img src="`" alt="Persona Maps" style="max-width: 50%; height: auto;"/>
+  <img src="../artifacts/blogs/coding-is-fun/old-website.png" alt="Old Portfolio Site" style="max-width: 50%; height: auto;"/>
 </p>
 
 <p align="center">
-    <small></small>
+    <small>RIP old vibecoded site...</small>
 </p>
 
 
@@ -71,7 +71,10 @@ really appreciate it in those moments.
 
 But sitting down and interrogating the LLM as to why it's hallucinating, why it's made certain decisions, or why it 
 decided to commit something horrible to Git despite my explicit instructions is just not a joyful experience. I'm more
-supervising a factory assembly line of code, than sitting down and crafting it myself.
+supervising a factory assembly line of code, than sitting down and crafting it myself. This isn't to say that "all 
+vibecoded things are bad" or anything like that. That old vibed site was pretty cool, and it served its purpose to its 
+end. I didn't really have any joy making it, nor did I learn very much, but that wasn't its original purpose anyway.
+It was just to have something that could maybe impress a recruiter so I could get employed. 
 
 So when I sat down and decided I wanted to learn a new language, C++ came to my mind as the primary candidate. I was 
 pretty interested in graphics programming as it seemed pretty cool to draw pictures and I learned a lot about how 
