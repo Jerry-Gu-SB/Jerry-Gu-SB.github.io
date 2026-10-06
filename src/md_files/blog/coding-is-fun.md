@@ -151,7 +151,7 @@ _Jerry_
 </p>
 
 <p align="center">
-    <small>YOU'RE HALLUCINATING WHY ISN'T THIS WORKING PLEA-</small>
+    <small>YOU'RE HALLUCINATING WHY ISN'T THIS WORKING PLEA- "You're absolutely right!"</small>
 </p>
 
 
